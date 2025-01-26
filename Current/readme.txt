@@ -1,5 +1,7 @@
 Planen för Automuiering
 
+To Do: for loop
+
 * Läs på vad varje keyword faktiskt gör
 * Lära mig att göra 5 olika automiansering som gör olika commando på sidan. (Olika sidor?)
 1. Söka en video på youtube och spela det. Pausa och spela
