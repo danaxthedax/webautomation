@@ -3,9 +3,7 @@ Planen för Automuiering
 To Do: 
 
 * Gör nuvarande chat_test ska öppna alla chat knappar
-* kör en test run med första
-* Kolla genoim test websidan
-* Skriv ner tre freatures med tre testcases
+* Gör en bättre lösing på wait än "sleep"
 
 
 * Gör att varje testrun kan ge "PASS" eler "FAILED"
