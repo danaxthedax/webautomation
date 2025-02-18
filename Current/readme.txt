@@ -4,6 +4,7 @@ To Do:
 
 * Gör nuvarande chat_test ska öppna alla chat knappar
 * Gör en bättre lösing på wait än "sleep"
+* Gör klart alla tester i folder: chat
 
 
 * Gör att varje testrun kan ge "PASS" eler "FAILED"
