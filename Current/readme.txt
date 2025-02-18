@@ -12,7 +12,7 @@ To Do:
 
 TestCase struktur
 Folder: Chat
-- Öppen alla chat rutor (5 Differnt Chat Buttons)
+- Öppen alla chat rutor (5 Differnt Chat Buttons) (dela upp på två för det är olika funktioner på chaterna?)
 - Enter vaild name and email
 - Enter all text fields and send
 Folder: Login
