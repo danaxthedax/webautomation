@@ -24,6 +24,7 @@ image_select = driver.find_elements("xpath", "//img[@src]")
 image_select[0].click()
 driver.implicitly_wait(2)
 chat_text = driver.find_elements("xpath", "//*[contains(text(), 'Chat')]")
+print(len(chat_text))
 
 original_window = driver.current_window_handle
 
