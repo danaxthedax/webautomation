@@ -12,6 +12,7 @@ To Do:
 
 
 TestCase struktur
+En egen mapp för varje browser
 Folder: Chat
 - Öppen alla chat rutor (5 Differnt Chat Buttons) (dela upp på två för det är olika funktioner på chaterna?)
 - Enter vaild name and email
