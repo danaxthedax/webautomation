@@ -1,3 +1,5 @@
+#Chat with sale
+
 #This test will open all chat buttons on the home page
 #Fixa en bättre wait
 #Få till pytest säger pass på testcases
@@ -23,22 +25,25 @@ driver.maximize_window()
 image_select = driver.find_elements("xpath", "//img[@src]")
 image_select[0].click()
 driver.implicitly_wait(2)
-chat_text = driver.find_elements("xpath", "//*[contains(text(), 'Chat')]")
-print(len(chat_text))
-
 original_window = driver.current_window_handle
 
-for cla in chat_text:
-    if "Chat Now" in cla.get_attribute("innerHTML"):
-        sleep(5)
+chat_with_sale = driver.find_elements("xpath", "//*[contains(@class, 'ppb-button') and contains(@class, 'btn-primary-chat') and contains(@class, 'chat-btn-popup')]")
+
+
+for cla in chat_with_sale:
+        print(cla)
+        ActionChains(driver)\
+                .scroll_to_element(cla) \
+                .scroll_by_amount(0, 200) \
+                .perform()
         cla.click()
-        sleep(5)
         driver.switch_to.window(driver.window_handles[1])
-        verify_chat = driver.find_element("xpath", "//*[contains(text(), 'Chat')]")
+        verify_chat = driver.find_element("xpath", "//*[contains(text(), 'Chat with Sales')]")
         if verify_chat != "":
             print("Passed")
         driver.close()
         driver.switch_to.window(original_window)
+
 
 driver.close()
 
