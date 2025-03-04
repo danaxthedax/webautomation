@@ -1,12 +1,5 @@
 #Chat with sale
 
-#This test will open all chat buttons on the home page
-#Fixa en bättre wait
-#Få till pytest säger pass på testcases
-
-
-from time import sleep
-
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
