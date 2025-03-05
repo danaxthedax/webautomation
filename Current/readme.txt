@@ -2,19 +2,18 @@ Planen för Automuiering
 
 To Do: 
 
-* Gör nuvarande chat_test ska öppna alla chat knappar
-* Gör en bättre lösing på wait än "sleep"
 * Gör klart alla tester i folder: chat
 
 
 * Gör att varje testrun kan ge "PASS" eler "FAILED"
 * Gör att den kan skrika ut på en .exl sheet med testnman, och resultat
+*Print ut error meddelande?
 
 
 TestCase struktur
 En egen mapp för varje browser
 Folder: Chat
-- Öppen alla chat rutor (5 Differnt Chat Buttons) (dela upp på två för det är olika funktioner på chaterna?)
+- Öppen en typ av chat "chat with sale"
 - Enter vaild name and email
 - Enter all text fields and send
 Folder: Login
@@ -30,3 +29,5 @@ https://automationpanda.com/2021/12/29/want-to-practice-test-automation-try-thes
 
 http://automationpractice.com/
 
+
+https://docs.pytest.org/en/stable/example/markers.html
