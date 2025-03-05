@@ -35,3 +35,6 @@ https://pytest-with-eric.com/automation/pytest-selenium/
 https://docs.pytest.org/en/stable/example/markers.html
 
 https://stackoverflow.com/questions/46330327/how-are-pipfile-and-pipfile-lock-used
+
+FireFox
+https://www.headspin.io/blog/run-selenium-tests-using-firefox-webdriver
