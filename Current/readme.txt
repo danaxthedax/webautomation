@@ -29,5 +29,5 @@ https://automationpanda.com/2021/12/29/want-to-practice-test-automation-try-thes
 
 http://automationpractice.com/
 
-
+https://pytest-with-eric.com/automation/pytest-selenium/
 https://docs.pytest.org/en/stable/example/markers.html
