@@ -2,8 +2,8 @@ Planen för Automuiering
 
 To Do: 
 
+* Göra pytest.ini har mark för chrome och firefox
 * Gör klart alla tester i folder: chat
-
 
 * Gör att varje testrun kan ge "PASS" eler "FAILED"
 * Gör att den kan skrika ut på en .exl sheet med testnman, och resultat
