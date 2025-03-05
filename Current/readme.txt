@@ -25,9 +25,13 @@ Folder: Sumit order
 - Sumit order when login in
 
 
+Bra länkar
+
 https://automationpanda.com/2021/12/29/want-to-practice-test-automation-try-these-demo-sites/
 
 http://automationpractice.com/
 
 https://pytest-with-eric.com/automation/pytest-selenium/
 https://docs.pytest.org/en/stable/example/markers.html
+
+https://stackoverflow.com/questions/46330327/how-are-pipfile-and-pipfile-lock-used
