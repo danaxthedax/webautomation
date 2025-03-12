@@ -3,7 +3,7 @@ Planen för Automuiering
 To Do: 
 
 * Gör så testet blir Passed med pytest
-* Fixa Gecko driver för FireFox
+* Fixa chat_with_sale för firefox
 *Göra pytest.ini har mark för chrome och firefox
 * Gör klart alla tester i folder: chat
 
