@@ -1,16 +1,12 @@
 #Chat with sale
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains, FirefoxProfile
+from selenium.webdriver import ActionChains
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
 
-
-options = Options()
-firefox_profile = FirefoxProfile()
-firefox_profile.set_preference("javascript.enabled", False)
-options.profile = firefox_profile
-
-driver = webdriver.Firefox(options=options)
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
 driver.get("http://automationpractice.com/")
 driver.maximize_window()

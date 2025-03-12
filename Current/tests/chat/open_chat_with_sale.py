@@ -24,7 +24,6 @@ chat_with_sale = driver.find_elements("xpath", "//*[contains(@class, 'ppb-button
 
 
 for cla in chat_with_sale:
-        print(cla)
         ActionChains(driver)\
                 .scroll_to_element(cla) \
                 .scroll_by_amount(0, 200) \
