@@ -2,9 +2,9 @@ Planen för Automuiering
 
 To Do: 
 
-* Gör så testet blir Passed med pytest
-* Fixa chat_with_sale för firefox
-*Göra pytest.ini har mark för chrome och firefox
+* Gör så testet blir Passed med pytest def
+* Göra pytest.ini har mark för chrome
+* fixa firefox
 * Gör klart alla tester i folder: chat
 
 * Gör att varje testrun kan ge "PASS" eler "FAILED"
