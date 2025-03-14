@@ -2,6 +2,7 @@ Planen för Automuiering
 
 To Do: 
 
+* Läsa genom python UV och lägg det till projektet
 * ladda ner exemple och försåte hur det funkar https://pytest-with-eric.com/automation/pytest-selenium/
 *Gör så testet blir Passed med pytest def
 * Göra pytest.ini har mark för chrome
