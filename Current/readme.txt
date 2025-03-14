@@ -2,7 +2,8 @@ Planen för Automuiering
 
 To Do: 
 
-* Gör så testet blir Passed med pytest def
+* ladda ner exemple och försåte hur det funkar https://pytest-with-eric.com/automation/pytest-selenium/
+*Gör så testet blir Passed med pytest def
 * Göra pytest.ini har mark för chrome
 * fixa firefox
 * Gör klart alla tester i folder: chat
